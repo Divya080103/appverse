@@ -19,7 +19,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/developer")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
 public class DeveloperController {
 
     private final DeveloperService developerService;
