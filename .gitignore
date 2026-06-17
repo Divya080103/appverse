@@ -1,0 +1,17 @@
+# Backend
+appverse-backend/target/
+appverse-backend/.mvn/repository/
+
+# Frontend
+appverse-frontend/node_modules/
+appverse-frontend/build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Env
+.env
+*.log
