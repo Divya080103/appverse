@@ -19,11 +19,12 @@ A full-stack application with a **Spring Boot** backend and **React** frontend.
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/Manjunath28/java.git
-cd java
+git clone https://github.com/Divya080103/appverse.git
+cd appverse
 ```
 
 ---
+
 
 ## Backend Setup
 
