@@ -81,6 +81,35 @@ npm start
 
 ---
 
+## Running Tests
+
+### Backend Unit Tests
+
+```bash
+cd appverse-backend
+./mvnw test
+```
+
+On Windows:
+```bash
+cd appverse-backend
+.\mvnw.cmd test
+```
+
+**Test Summary:**
+
+| Test Class | Tests | Coverage |
+|---|---|---|
+| `UserServiceTest` | 12 | Register, Login, GetUser, Delete |
+| `AppServiceTest` | 18 | CRUD, Search, Trending, Deactivate |
+| `CategoryServiceTest` | 10 | CRUD, Duplicate check |
+| `DeveloperServiceTest` | 10 | Versions, Analytics, Downloads |
+| `ReviewServiceTest` | 13 | CRUD, Ratings, Authorization |
+
+> Total: **63 unit tests** using JUnit 5, Mockito, and Spring Boot Test.
+
+---
+
 ## Demo Accounts
 
 | Role | Username | Password |
